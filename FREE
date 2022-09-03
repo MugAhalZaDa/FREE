@@ -9,7 +9,7 @@ os.system("rm -rf .txt")
 for n in range(5000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
-    print(...)
+    print nmbr
     sys.stdout.flush()
 pass
 
@@ -76,7 +76,7 @@ def main_apv():
         m=q['name']
         print ''
     except requests.exceptions.ConnectionError:
-        print logo
+        print(...)
         print ''
         print "Trun On Data An Then \t"
         print("")
